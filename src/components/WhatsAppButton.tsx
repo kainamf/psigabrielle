@@ -7,7 +7,7 @@ function WhatsAppButton() {
             <a
                 href="https://wa.me/5521995263386"
                 target="_blank"
-                className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all transform hover:scale-110 flex items-center gap-3"
+                className="bg-primary hover:bg-accent text-white p-4 rounded-full shadow-lg transition-all transform hover:scale-110 flex items-center gap-3"
             >
                 <MessageCircle size={24} />
                 <span className="hidden sm:inline font-semibold">Agendar Consulta</span>

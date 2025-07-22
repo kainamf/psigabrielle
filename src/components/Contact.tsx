@@ -3,64 +3,64 @@ import { MessageCircle, Instagram, Mail, MapPin } from 'lucide-react';
 
 function Contact() {
     return (
-        <section id="contato" className="py-20 bg-gradient-to-br from-blue-50 to-indigo-100">
+        <section id="contato" className="py-20 bg-gradient-to-br from-background to-primary">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-blue-900 mb-4">Entre em Contato</h2>
-                    <p className="text-xl text-gray-600">Agende sua consulta e dê o primeiro passo</p>
+                    <h2 className="text-4xl font-bold text-accent mb-4">Entre em Contato</h2>
+                    <p className="text-xl text-accent">Agende sua consulta e dê o primeiro passo</p>
                 </div>
                 <div className="grid md:grid-cols-2 gap-12">
                     <div className="space-y-8">
-                        <div className="bg-white p-6 rounded-2xl shadow-lg">
-                            <h3 className="text-2xl font-semibold text-blue-900 mb-6">Informações de Contato</h3>
+                        <div className="bg-background p-6 rounded-2xl shadow-lg">
+                            <h3 className="text-2xl font-semibold text-accent mb-6">Informações de Contato</h3>
                             <div className="space-y-4">
                                 <a
                                     href="https://wa.me/5521995263386"
                                     target="_blank"
-                                    className="flex items-center gap-4 p-4 bg-green-50 rounded-lg hover:bg-green-100 transition-colors group"
+                                    className="flex items-center gap-4 p-4 bg-primary/10 rounded-lg hover:bg-primary/20 transition-colors group"
                                 >
-                                    <div className="bg-green-500 p-3 rounded-full group-hover:bg-green-600 transition-colors">
+                                    <div className="bg-primary p-3 rounded-full group-hover:bg-accent transition-colors">
                                         <MessageCircle className="text-white" size={24} />
                                     </div>
                                     <div>
-                                        <div className="font-semibold text-gray-800">WhatsApp</div>
-                                        <div className="text-gray-600">(21) 99526-3386</div>
+                                        <div className="font-semibold text-accent">WhatsApp</div>
+                                        <div className="text-accent">(21) 99526-3386</div>
                                     </div>
                                 </a>
                                 <a
                                     href="https://instagram.com/psigabriellemazulo"
                                     target="_blank"
-                                    className="flex items-center gap-4 p-4 bg-purple-50 rounded-lg hover:bg-purple-100 transition-colors group"
+                                    className="flex items-center gap-4 p-4 bg-secondary/10 rounded-lg hover:bg-secondary/20 transition-colors group"
                                 >
-                                    <div className="bg-gradient-to-r from-purple-500 to-pink-500 p-3 rounded-full">
+                                    <div className="bg-gradient-to-r from-secondary to-primary p-3 rounded-full">
                                         <Instagram className="text-white" size={24} />
                                     </div>
                                     <div>
-                                        <div className="font-semibold text-gray-800">Instagram</div>
-                                        <div className="text-gray-600">@psigabriellemazulo</div>
+                                        <div className="font-semibold text-accent">Instagram</div>
+                                        <div className="text-accent">@psigabriellemazulo</div>
                                     </div>
                                 </a>
-                                <div className="flex items-center gap-4 p-4 bg-blue-50 rounded-lg">
-                                    <div className="bg-blue-500 p-3 rounded-full">
+                                <div className="flex items-center gap-4 p-4 bg-primary/10 rounded-lg">
+                                    <div className="bg-primary p-3 rounded-full">
                                         <Mail className="text-white" size={24} />
                                     </div>
                                     <div>
-                                        <div className="font-semibold text-gray-800">E-mail</div>
-                                        <div className="text-gray-600">psi.gabriellemazulo@gmail.com</div>
+                                        <div className="font-semibold text-accent">E-mail</div>
+                                        <div className="text-accent">psi.gabriellemazulo@gmail.com</div>
                                     </div>
                                 </div>
-                                <div className="flex items-center gap-4 p-4 bg-gray-50 rounded-lg">
-                                    <div className="bg-gray-500 p-3 rounded-full">
+                                <div className="flex items-center gap-4 p-4 bg-accent/10 rounded-lg">
+                                    <div className="bg-accent p-3 rounded-full">
                                         <MapPin className="text-white" size={24} />
                                     </div>
                                     <div>
-                                        <div className="font-semibold text-gray-800">Endereço</div>
-                                        <div className="text-gray-600">Av. das Américas, 19019. Sala 386 - Recreio dos Bandeirantes, Rio de Janeiro - RJ, 22790-701</div>
+                                        <div className="font-semibold text-accent">Endereço</div>
+                                        <div className="text-accent">Av. das Américas, 19019. Sala 386 - Recreio dos Bandeirantes, Rio de Janeiro - RJ, 22790-701</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-blue-900 text-white p-8 rounded-2xl">
+                        <div className="bg-accent text-white p-8 rounded-2xl">
                             <h3 className="text-xl font-semibold mb-4">Horário de Atendimento</h3>
                             <div className="space-y-2">
                                 <div className="flex justify-between">
@@ -78,9 +78,9 @@ function Contact() {
                             </div>
                         </div>
                     </div>
-                    <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
+                    <div className="bg-background rounded-2xl shadow-lg overflow-hidden">
                         <div className="p-6 border-b">
-                            <h3 className="text-xl font-semibold text-blue-900">Localização</h3>
+                            <h3 className="text-xl font-semibold text-accent">Localização</h3>
                         </div>
                         <div className="h-96">
                             <iframe
