@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MapPin, Instagram, MessageCircle, Star, Clock, Users, Award, Heart } from 'lucide-react';
+import { Mail, MapPin, Instagram, MessageCircle, Star, Clock, Users, Award, Heart } from 'lucide-react';
 
 function App() {
     const scrollToSection = (sectionId: string) => {
@@ -15,7 +15,7 @@ function App() {
                     <div className="flex justify-between items-center">
                         <div className="text-2xl font-bold text-blue-900">
                             Gabrielle Mazulo
-                            <div className="text-sm font-normal text-blue-600">Psicóloga CRP XX/XXXXX</div>
+                            <div className="text-sm font-normal text-blue-600">Psicóloga CRP 05/74956</div>
                         </div>
                         <nav className="hidden md:flex space-x-8">
                             <button onClick={() => scrollToSection('inicio')} className="text-gray-700 hover:text-blue-600 transition-colors">Início</button>
@@ -42,7 +42,7 @@ function App() {
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4">
                                 <a
-                                    href="https://wa.me/5511999999999"
+                                    href="https://wa.me/5521995263386"
                                     target="_blank"
                                     className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-semibold flex items-center justify-center gap-3 transition-all transform hover:scale-105 shadow-lg"
                                 >
@@ -50,7 +50,7 @@ function App() {
                                     Agendar Consulta
                                 </a>
                                 <a
-                                    href="https://instagram.com/gabriellemazulo"
+                                    href="https://instagram.com/psigabriellemazulo"
                                     target="_blank"
                                     className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-8 py-4 rounded-full font-semibold flex items-center justify-center gap-3 transition-all transform hover:scale-105 shadow-lg"
                                 >
@@ -143,13 +143,13 @@ function App() {
                             <h2 className="text-4xl font-bold text-blue-900 mb-6">Sobre Gabrielle Mazulo</h2>
                             <div className="space-y-4 text-gray-700 leading-relaxed">
                                 <p>
-                                    Psicóloga formada com especialização em Neuropsicologia Infantil, dedico minha carreira ao cuidado e desenvolvimento de crianças e adolescentes através de avaliações neuropsicológicas precisas e humanizadas.
+                                    Sou Gabrielle, mestranda em Ensino em Biociências e Saúde pela Fiocruz, pós-graduanda em neuropsicologia pelo IPOG e psicóloga formada pela Universidade Federal Rural do Rio de Janeiro (UFRRJ).
                                 </p>
                                 <p>
-                                    Com mais de 8 anos de experiência na área, desenvolvi uma abordagem única que combina rigor científico com sensibilidade no atendimento às famílias, sempre buscando compreender cada criança em sua individualidade.
+                                    Ofereço os serviços de psicoterapia individual de crianças e adolescentes, Avaliação Neuropsicológica de Crianças, Adolescentes e Adultos e Orientação Parental.
                                 </p>
                                 <p>
-                                    Acredito que cada avaliação é uma oportunidade de descobrir potenciais e construir caminhos para o desenvolvimento pleno de cada criança e adolescente.
+                                    Meu propósito é ajudar famílias e escolas a acolherem o desenvolvimento dos pequenos de maneira saudável.
                                 </p>
                             </div>
 
@@ -180,7 +180,7 @@ function App() {
                                     <div className="text-center text-white">
                                         <Heart size={60} className="mx-auto mb-4" />
                                         <h3 className="text-2xl font-semibold">Gabrielle Mazulo</h3>
-                                        <p>CRP XX/XXXXX</p>
+                                        <p>CRP 05/74956</p>
                                     </div>
                                 </div>
                             </div>
@@ -255,7 +255,7 @@ function App() {
 
                                 <div className="space-y-4">
                                     <a
-                                        href="https://wa.me/5511999999999"
+                                        href="https://wa.me/5521995263386"
                                         target="_blank"
                                         className="flex items-center gap-4 p-4 bg-green-50 rounded-lg hover:bg-green-100 transition-colors group"
                                     >
@@ -264,12 +264,12 @@ function App() {
                                         </div>
                                         <div>
                                             <div className="font-semibold text-gray-800">WhatsApp</div>
-                                            <div className="text-gray-600">(11) 99999-9999</div>
+                                            <div className="text-gray-600">(21) 99526-3386</div>
                                         </div>
                                     </a>
 
                                     <a
-                                        href="https://instagram.com/gabriellemazulo"
+                                        href="https://instagram.com/psigabriellemazulo"
                                         target="_blank"
                                         className="flex items-center gap-4 p-4 bg-purple-50 rounded-lg hover:bg-purple-100 transition-colors group"
                                     >
@@ -278,7 +278,7 @@ function App() {
                                         </div>
                                         <div>
                                             <div className="font-semibold text-gray-800">Instagram</div>
-                                            <div className="text-gray-600">@gabriellemazulo</div>
+                                            <div className="text-gray-600">@psigabriellemazulo</div>
                                         </div>
                                     </a>
 
@@ -288,7 +288,7 @@ function App() {
                                         </div>
                                         <div>
                                             <div className="font-semibold text-gray-800">E-mail</div>
-                                            <div className="text-gray-600">contato@gabriellemazulo.com.br</div>
+                                            <div className="text-gray-600">psi.gabriellemazulo@gmail.com</div>
                                         </div>
                                     </div>
 
@@ -298,7 +298,7 @@ function App() {
                                         </div>
                                         <div>
                                             <div className="font-semibold text-gray-800">Endereço</div>
-                                            <div className="text-gray-600">Rua das Flores, 123 - São Paulo/SP</div>
+                                            <div className="text-gray-600">Av. das Américas, 19019. Sala 386 - Recreio dos Bandeirantes, Rio de Janeiro - RJ, 22790-701</div>
                                         </div>
                                     </div>
                                 </div>
@@ -354,7 +354,7 @@ function App() {
                                 Psicóloga especializada em avaliação neuropsicológica de crianças e adolescentes.
                                 Cuidado humanizado e cientificamente fundamentado.
                             </p>
-                            <p className="text-blue-200 text-sm">CRP XX/XXXXX</p>
+                            <p className="text-blue-200 text-sm">CRP 05/74956</p>
                         </div>
 
                         <div>
@@ -370,9 +370,9 @@ function App() {
                         <div>
                             <h4 className="font-semibold mb-4">Contato</h4>
                             <div className="space-y-2 text-blue-100">
-                                <p>(11) 99999-9999</p>
-                                <p>contato@gabriellemazulo.com.br</p>
-                                <p>São Paulo/SP</p>
+                                <p>(21) 99526-3386</p>
+                                <p>psi.gabriellemazulo@gmail.com</p>
+                                <p>Rio de Janeiro/RJ</p>
                             </div>
                         </div>
                     </div>
@@ -386,7 +386,7 @@ function App() {
             {/* Fixed WhatsApp Button */}
             <div className="fixed bottom-6 right-6 z-50">
                 <a
-                    href="https://wa.me/5511999999999"
+                    href="https://wa.me/5521995263386"
                     target="_blank"
                     className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all transform hover:scale-110 flex items-center gap-3"
                 >
