@@ -7,14 +7,13 @@ function Header({ scrollToSection }: { scrollToSection: (sectionId: string) => v
                 <div className="flex justify-between items-center">
                     <div className="text-2xl font-bold text-accent">
                         Gabrielle Mazulo
-                        <div className="text-sm font-normal text-primary">Psicóloga CRP 05/74956</div>
+                        <div className="text-sm font-normal text-accent">Psicóloga CRP 05/74956</div>
                     </div>
                     <nav className="hidden md:flex space-x-8">
-                        <button onClick={() => scrollToSection('inicio')} className="text-secondary hover:text-primary transition-colors">Início</button>
-                        <button onClick={() => scrollToSection('servicos')} className="text-secondary hover:text-primary transition-colors">Serviços</button>
-                        <button onClick={() => scrollToSection('sobre')} className="text-secondary hover:text-primary transition-colors">Sobre</button>
-                        <button onClick={() => scrollToSection('depoimentos')} className="text-secondary hover:text-primary transition-colors">Depoimentos</button>
-                        <button onClick={() => scrollToSection('contato')} className="text-secondary hover:text-primary transition-colors">Contato</button>
+                        <button onClick={() => scrollToSection('inicio')} className="text-accent hover:text-primary transition-colors">Início</button>
+                        <button onClick={() => scrollToSection('servicos')} className="text-accent hover:text-primary transition-colors">Serviços</button>
+                        <button onClick={() => scrollToSection('sobre')} className="text-accent hover:text-primary transition-colors">Sobre</button>
+                        <button onClick={() => scrollToSection('contato')} className="text-accent hover:text-primary transition-colors">Contato</button>
                     </nav>
                 </div>
             </div>
