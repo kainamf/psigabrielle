@@ -9,8 +9,8 @@ function Contact() {
                     <h2 className="text-4xl font-bold text-accent mb-4">Entre em Contato</h2>
                     <p className="text-xl text-accent">Agende sua consulta e dê o primeiro passo</p>
                 </div>
-                <div className="grid md:grid-cols-2 gap-12">
-                    <div className="space-y-8">
+                <div className="grid md:grid-cols-2 gap-12 items-stretch">
+                    <div className="space-y-8 flex flex-col h-full">
                         <div className="bg-background p-6 rounded-2xl shadow-lg">
                             <h3 className="text-2xl font-semibold text-accent mb-6">Informações de Contato</h3>
                             <div className="space-y-4">
@@ -78,11 +78,11 @@ function Contact() {
                             </div>
                         </div>
                     </div>
-                    <div className="bg-background rounded-2xl shadow-lg overflow-hidden">
+                    <div className="bg-background rounded-2xl shadow-lg overflow-hidden flex flex-col h-full min-h-full">
                         <div className="p-6 border-b">
                             <h3 className="text-xl font-semibold text-accent">Localização</h3>
                         </div>
-                        <div className="h-96">
+                        <div className="flex-1">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.234073964837!2d-43.48085768446444!3d-23.02156398495309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdc2b7e7e7e7e7e%3A0x7e7e7e7e7e7e7e7e!2sAv.%20das%20Am%C3%A9ricas%2C%2019019%20-%20Recreio%20dos%20Bandeirantes%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022790-701!5e0!3m2!1spt-BR!2sbr!4v1721568000000!5m2!1spt-BR!2sbr"
                                 width="100%"
