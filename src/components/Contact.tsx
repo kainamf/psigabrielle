@@ -84,7 +84,7 @@ function Contact() {
                         </div>
                         <div className="h-96">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0977!2d-46.6543!3d-23.5615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMzJzQxLjQiUyA0NsKwMzknMTUuNSJX!5e0!3m2!1spt-BR!2sbr!4v1635789012345!5m2!1spt-BR!2sbr"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.234073964837!2d-43.48085768446444!3d-23.02156398495309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdc2b7e7e7e7e7e%3A0x7e7e7e7e7e7e7e7e!2sAv.%20das%20Am%C3%A9ricas%2C%2019019%20-%20Recreio%20dos%20Bandeirantes%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022790-701!5e0!3m2!1spt-BR!2sbr!4v1721568000000!5m2!1spt-BR!2sbr"
                                 width="100%"
                                 height="100%"
                                 style={{ border: 0 }}
