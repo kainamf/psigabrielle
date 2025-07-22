@@ -33,11 +33,22 @@ function Hero() {
                             </a>
                         </div>
                     </div>
-                    <div className="relative">
-                        <div className="bg-background rounded-2xl shadow-2xl p-8 transform rotate-3 hover:rotate-0 transition-transform">
-                            <div className="bg-primary w-full h-64 rounded-xl flex items-center justify-center">
-                                <Heart size={80} className="text-white" />
-                            </div>
+                    <div className="relative mt-8 md:mt-12">
+                        <div className="bg-background rounded-2xl shadow-2xl p-4 transform rotate-3 hover:rotate-0 transition-transform flex flex-col items-center">
+                            <a
+                                href="https://www.instagram.com/p/C6MxDq5vgY0/?utm_source=ig_web_copy_link"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="block rounded-xl overflow-hidden hover:scale-105 transition-transform"
+                                style={{ maxWidth: '350px', width: '100%' }}
+                            >
+                                <img
+                                    src="/Hero.jpg"
+                                    alt="Gabrielle Mazulo"
+                                    className="w-full h-auto rounded-xl"
+                                    style={{ display: 'block', maxHeight: '400px', objectFit: 'contain', margin: '0 auto' }}
+                                />
+                            </a>
                             <div className="mt-6 text-center">
                                 <h3 className="text-xl font-semibold text-accent">Gabrielle Mazulo</h3>
                                 <p className="text-secondary">Psicóloga Especialista</p>
