@@ -43,17 +43,17 @@ function Services() {
                     <div className="mt-16 bg-accent text-white p-8 rounded-2xl">
                     <div className="grid md:grid-cols-3 gap-8 text-center">
                         <div>
-                            <div className="text-4xl font-bold text-primary mb-2">200+</div>
+                            <div className="text-4xl font-bold text-primary mb-2">30+</div>
                             <div className="text-secondary">Avaliações Realizadas</div>
                         </div>
                         <div>
-                            <div className="text-4xl font-bold text-primary mb-2">8+</div>
+                            <div className="text-4xl font-bold text-primary mb-2">4+</div>
                             <div className="text-secondary">Anos de Experiência</div>
                         </div>
-                        <div>
-                            <div className="text-4xl font-bold text-primary mb-2">95%</div>
-                            <div className="text-secondary">Satisfação das Famílias</div>
-                        </div>
+                        {/* <div>
+                            <div className="text-4xl font-bold text-primary mb-2">100%</div>
+                            <div className="text-secondary">Satisfação Garantida</div>
+                        </div> */}
                     </div>
                 </div>
             </div>
