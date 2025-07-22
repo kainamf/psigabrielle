@@ -30,15 +30,20 @@ function About() {
                             </div>
                         </div>
                     </div>
-                    <div className="relative">
-                        <div className="bg-background rounded-2xl shadow-2xl p-8">
-                            <div className="bg-gradient-to-br from-primary to-accent w-full h-80 rounded-xl flex items-center justify-center">
-                                <div className="text-center text-accent">
-                                    <Heart size={60} className="mx-auto mb-4" />
-                                    <h3 className="text-2xl font-semibold">Gabrielle Mazulo</h3>
-                                    <p>CRP 05/74956</p>
-                                </div>
-                            </div>
+                    <div className="flex justify-center items-center mt-8 md:mt-12">
+                        <div className="rounded-2xl shadow-2xl p-0 bg-background" style={{ width: '350px', height: '480px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                            <iframe
+                                src="https://www.instagram.com/p/C75CChOPQh8/embed"
+                                width="350"
+                                height="480"
+                                allowTransparency={true}
+                                frameBorder="0"
+                                scrolling="no"
+                                allow="encrypted-media"
+                                title="Instagram Post"
+                                className="rounded-xl"
+                                style={{ border: 'none' }}
+                            ></iframe>
                         </div>
                     </div>
                 </div>
