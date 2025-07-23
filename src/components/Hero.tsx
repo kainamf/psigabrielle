@@ -47,7 +47,7 @@ function Hero() {
                         >
                             <div className="rounded-xl overflow-hidden w-full" style={{ maxWidth: '350px' }}>
                                 <img
-                                    src="/heroImage.jpg"
+                                    src="/assets/images/heroImage.jpg"
                                     alt="Gabrielle Mazulo"
                                     className="w-full h-auto rounded-xl"
                                     style={{ display: 'block', maxHeight: '400px', objectFit: 'contain', margin: '0 auto' }}
