@@ -1,4 +1,11 @@
 import React from 'react';
+
+const PHONE = process.env.REACT_APP_PHONE;
+const EMAIL = process.env.REACT_APP_EMAIL;
+const ADDRESS = process.env.REACT_APP_ADDRESS;
+const INSTAGRAM = process.env.REACT_APP_INSTAGRAM;
+const WHATSAPP = process.env.REACT_APP_WHATSAPP;
+const INSTAGRAM_LINK = `https://instagram.com/${INSTAGRAM}`;
 import { MessageCircle, Instagram, Mail, MapPin } from 'lucide-react';
 
 function Contact() {
@@ -15,7 +22,7 @@ function Contact() {
                             <h3 className="text-2xl font-semibold text-accent mb-6">Informações de Contato</h3>
                             <div className="space-y-4">
                                 <a
-                                    href="https://wa.me/5521995263386"
+                                    href={WHATSAPP}
                                     target="_blank"
                                     className="flex items-center gap-4 p-4 bg-primary/10 rounded-lg hover:bg-primary/20 transition-colors group"
                                 >
@@ -24,11 +31,11 @@ function Contact() {
                                     </div>
                                     <div>
                                         <div className="font-semibold text-accent">WhatsApp</div>
-                                        <div className="text-accent">(21) 99526-3386</div>
+                                        <div className="text-accent">{PHONE}</div>
                                     </div>
                                 </a>
                                 <a
-                                    href="https://instagram.com/psigabriellemazulo"
+                                    href={INSTAGRAM_LINK}
                                     target="_blank"
                                     className="flex items-center gap-4 p-4 bg-secondary/10 rounded-lg hover:bg-secondary/20 transition-colors group"
                                 >
@@ -37,7 +44,7 @@ function Contact() {
                                     </div>
                                     <div>
                                         <div className="font-semibold text-accent">Instagram</div>
-                                        <div className="text-accent">@psigabriellemazulo</div>
+                                        <div className="text-accent">@{INSTAGRAM}</div>
                                     </div>
                                 </a>
                                 <div className="flex items-center gap-4 p-4 bg-primary/10 rounded-lg">
@@ -46,7 +53,7 @@ function Contact() {
                                     </div>
                                     <div>
                                         <div className="font-semibold text-accent">E-mail</div>
-                                        <div className="text-accent">psi.gabriellemazulo@gmail.com</div>
+                                        <div className="text-accent">{EMAIL}</div>
                                     </div>
                                 </div>
                                 <div className="flex items-center gap-4 p-4 bg-accent/10 rounded-lg">
@@ -55,7 +62,7 @@ function Contact() {
                                     </div>
                                     <div>
                                         <div className="font-semibold text-accent">Endereço</div>
-                                        <div className="text-accent">Av. das Américas, 19019. Sala 386 - Recreio dos Bandeirantes, Rio de Janeiro - RJ, 22790-701</div>
+                                        <div className="text-accent">{ADDRESS}</div>
                                     </div>
                                 </div>
                             </div>

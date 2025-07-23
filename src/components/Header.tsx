@@ -1,5 +1,7 @@
 import React from 'react';
 
+const CRP = process.env.REACT_APP_CRP;
+
 function Header({ scrollToSection }: { scrollToSection: (sectionId: string) => void }) {
     return (
         <header className="bg-background/95 backdrop-blur-sm fixed w-full top-0 z-50 shadow-sm">
@@ -7,7 +9,7 @@ function Header({ scrollToSection }: { scrollToSection: (sectionId: string) => v
                 <div className="flex justify-between items-center">
                     <div className="text-2xl font-bold text-accent">
                         Gabrielle Mazulo
-                        <div className="text-sm font-normal text-accent">Psicóloga CRP 05/74956</div>
+                        <div className="text-sm font-normal text-accent">Psicóloga CRP {CRP}</div>
                     </div>
                     <nav className="hidden md:flex space-x-8">
                         <button onClick={() => scrollToSection('inicio')} className="text-accent hover:text-primary transition-colors">Início</button>

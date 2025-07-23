@@ -1,4 +1,8 @@
 import React from 'react';
+
+const INSTAGRAM = process.env.REACT_APP_INSTAGRAM;
+const WHATSAPP = process.env.REACT_APP_WHATSAPP;
+const INSTAGRAM_LINK = `https://instagram.com/${INSTAGRAM}`;
 import { MessageCircle, Instagram, Heart } from 'lucide-react';
 
 function Hero() {
@@ -16,7 +20,7 @@ function Hero() {
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <a
-                                href="https://wa.me/5521995263386"
+                                href={WHATSAPP}
                                 target="_blank"
                                 className="bg-primary hover:bg-accent text-white px-8 py-4 rounded-full font-semibold flex items-center justify-center gap-3 transition-all transform hover:scale-105 shadow-lg"
                             >
@@ -24,7 +28,7 @@ function Hero() {
                                 Agendar Consulta
                             </a>
                             <a
-                                href="https://instagram.com/psigabriellemazulo"
+                                href={INSTAGRAM_LINK}
                                 target="_blank"
                                 className="bg-gradient-to-r from-secondary to-primary hover:from-accent hover:to-primary text-white px-8 py-4 rounded-full font-semibold flex items-center justify-center gap-3 transition-all transform hover:scale-105 shadow-lg"
                             >
