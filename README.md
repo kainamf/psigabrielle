@@ -52,6 +52,3 @@ psigabrielle/
 - `npm start`: Inicia o servidor de desenvolvimento
 - `npm run build`: Gera a versão de produção
 - `npm test`: Executa os testes
-
-## Contato
-Para dúvidas ou sugestões, entre em contato pelo WhatsApp disponível no site.
