@@ -37,7 +37,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="border-t border-primary mt-8 pt-8 text-center text-secondary">
-                    <p>&copy; 2025 Gabrielle Mazulo - Todos os direitos reservados</p>
+                    <p>&copy; 2025 Kainã Freitas - Todos os direitos reservados</p>
                     <p className="text-xs mt-2">Desenvolvido por <a href="https://github.com/kainamf" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">Kainã Freitas</a></p>
                 </div>
             </div>
