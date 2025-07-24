@@ -27,7 +27,7 @@ function Services() {
                         </div>
                         <h3 className="text-2xl font-semibold text-accent mb-4">Diagnóstico Diferencial</h3>
                         <p className="text-accent leading-relaxed">
-                            Identificação precisa de condições como TDAH, TEA, dificuldades de aprendizagem e outros transtornos do neurodesenvolvimento.
+                            Identificação precisa, em crianças, adolescentes e adultos, de condições como TDAH, TEA, Altas Habilidades/Superdotação, dificuldades de aprendizagem e outros transtornos do neurodesenvolvimento.
                         </p>
                     </div>
                     <div className="bg-gradient-to-br from-primary to-secondary p-8 rounded-2xl hover:shadow-xl transition-all transform hover:-translate-y-2">
