@@ -7,28 +7,50 @@ import { MessageCircle, Instagram, Heart } from 'lucide-react';
 
 function Hero() {
     return (
-    <section id="inicio" className="py-24 bg-white">
-        <div className="max-w-6xl mx-auto px-6 flex flex-col items-center">
-            <img src="/assets/images/Logo-escrita-fina.png" alt="Logo escrita fina" className="mx-auto mb-10 h-32 w-auto object-contain" />
-            <div className="w-full flex flex-col md:flex-row items-center justify-center gap-16">
-                <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left">
-                    <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-6 leading-tight">
-                        Psicóloga Gabrielle Mazulo CRP {CRP}<br />
-                        <span className="block text-primary mt-2">Atendimento clínico com foco em neurodesenvolvimento e empatia</span>
+    <section id="inicio" className="py-24 bg-background">
+        <div className="max-w-6xl mx-auto px-6">
+            {/* Logo centralizada no topo */}
+            <div className="flex justify-center mb-10">
+                <img 
+                    src="/assets/images/Logo-escrita-fina.png" 
+                    alt="Logo Gabrielle Mazulo" 
+                    className="w-64 md:w-[28rem] mx-auto"
+                />
+            </div>
+            <div className="grid md:grid-cols-2 gap-16 items-center">
+                {/* Coluna da Esquerda: Descrição centralizada */}
+                <div className="flex flex-col justify-center items-center text-center">
+                    <h1 className="text-2xl md:text-3xl font-bold text-neutral-500 mb-2 leading-tight text-center">
+                        Psicóloga Gabrielle Mazulo CRP {CRP} | Atendimento clínico com foco em neurodesenvolvimento e empatia
                     </h1>
-                    <p className="text-xl italic text-gray-700 mb-8 leading-relaxed max-w-xl">
-                        Mais do que ensinar a se comportar, eu ensino a se reconhecer. E ser acolhido por inteiro.
-                    </p>
+                    <div className="mt-4 mb-6">
+                        <blockquote className="text-lg md:text-xl italic text-neutral-700 font-medium text-center">
+                            Mais do que ensinar a se comportar, eu ensino a se reconhecer. E ser acolhido por inteiro.
+                        </blockquote>
+                    </div>
+                    <div className="mt-6">
                         <a
                             href={WHATSAPP}
                             target="_blank"
-                            className="bg-primary-500 hover:bg-primary-700 text-white px-8 py-4 rounded-full font-bold flex items-center justify-center gap-3 shadow-lg transition-all transform hover:scale-105 text-lg w-64 mx-auto md:mx-0"
+                            rel="noopener noreferrer"
+                            className="bg-primary-300 hover:bg-primary-400 text-background px-6 py-2 rounded-full font-semibold flex items-center justify-center gap-2 transition-all transform hover:scale-105 shadow-lg w-full sm:w-auto animate-bounce-slow text-base"
                         >
-                        <MessageCircle size={22} />
-                        Agendar Consulta
-                    </a>
+                            Agendar Consulta
+                            <MessageCircle size={18} />
+                        </a>
+                        <style>{`
+                            @keyframes bounce-slow {
+                              0%, 100% { transform: translateY(0); }
+                              50% { transform: translateY(-10px); }
+                            }
+                            .animate-bounce-slow {
+                              animation: bounce-slow 2.5s infinite;
+                            }
+                        `}</style>
+                    </div>
                 </div>
-                <div className="flex-1 flex justify-center items-center">
+                {/* Coluna da Direita: Imagem */}
+                <div className="flex justify-center items-center">
                     <div className="max-w-md w-full">
                         <img
                             src="/assets/images/Gabrielle-alta3-4.jpg"

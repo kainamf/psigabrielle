@@ -24,10 +24,8 @@ psigabrielle/
 │   │   ├── About.tsx
 │   │   ├── Contact.tsx
 │   │   ├── Footer.tsx
-│   │   ├── Header.tsx
 │   │   ├── Hero.tsx
 │   │   ├── Services.tsx
-│   │   └── WhatsAppButton.tsx
 │   ├── App.tsx
 │   ├── index.tsx
 │   └── index.css
