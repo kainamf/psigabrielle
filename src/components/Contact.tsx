@@ -10,66 +10,66 @@ import { MessageCircle, Instagram, Mail, MapPin } from 'lucide-react';
 
 function Contact() {
     return (
-        <section id="contato" className="py-20 bg-gradient-to-br from-background to-primary">
-            <div className="container mx-auto px-6">
+        <section id="contato" className="py-24 bg-white">
+            <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-accent mb-4">Entre em Contato</h2>
-                    <p className="text-xl text-accent">Agende sua consulta e dê o primeiro passo</p>
+                    <h2 className="text-5xl font-extrabold text-gray-900 mb-6">Entre em Contato</h2>
+                    <p className="text-2xl text-gray-700">Agende sua consulta e dê o primeiro passo</p>
                 </div>
-                <div className="grid md:grid-cols-2 gap-12 items-stretch">
-                    <div className="space-y-8 flex flex-col h-full">
-                        <div className="bg-background p-6 rounded-2xl shadow-lg">
-                            <h3 className="text-2xl font-semibold text-accent mb-6">Informações de Contato</h3>
-                            <div className="space-y-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-stretch">
+                    <div className="flex flex-col gap-10 h-full">
+                        <div className="bg-white p-8 rounded-3xl shadow-xl flex flex-col gap-6">
+                            <h3 className="text-2xl font-bold text-gray-900 mb-4">Informações de Contato</h3>
+                            <div className="flex flex-col gap-4">
                                 <a
                                     href={WHATSAPP}
                                     target="_blank"
-                                    className="flex items-center gap-4 p-4 bg-primary/10 rounded-lg hover:bg-primary/20 transition-colors group"
+                                    className="flex items-center gap-4 p-4 bg-primary/10 rounded-xl hover:bg-primary/20 transition-colors group shadow"
                                 >
                                     <div className="bg-primary p-3 rounded-full group-hover:bg-accent transition-colors">
-                                        <MessageCircle className="text-white" size={24} />
+                                        <MessageCircle className="text-white" size={28} />
                                     </div>
                                     <div>
-                                        <div className="font-semibold text-accent">WhatsApp</div>
-                                        <div className="text-accent">{PHONE}</div>
+                                        <div className="font-bold text-gray-900">WhatsApp</div>
+                                        <div className="text-gray-700">{PHONE}</div>
                                     </div>
                                 </a>
                                 <a
                                     href={INSTAGRAM_LINK}
                                     target="_blank"
-                                    className="flex items-center gap-4 p-4 bg-secondary/10 rounded-lg hover:bg-secondary/20 transition-colors group"
+                                    className="flex items-center gap-4 p-4 bg-secondary/10 rounded-xl hover:bg-secondary/20 transition-colors group shadow"
                                 >
-                                    <div className="bg-gradient-to-r from-secondary to-primary p-3 rounded-full">
-                                        <Instagram className="text-white" size={24} />
+                                    <div className="bg-secondary p-3 rounded-full">
+                                        <Instagram className="text-white" size={28} />
                                     </div>
                                     <div>
-                                        <div className="font-semibold text-accent">Instagram</div>
-                                        <div className="text-accent">@{INSTAGRAM}</div>
+                                        <div className="font-bold text-gray-900">Instagram</div>
+                                        <div className="text-gray-700">@{INSTAGRAM}</div>
                                     </div>
                                 </a>
-                                <div className="flex items-center gap-4 p-4 bg-primary/10 rounded-lg">
+                                <div className="flex items-center gap-4 p-4 bg-primary/10 rounded-xl shadow">
                                     <div className="bg-primary p-3 rounded-full">
-                                        <Mail className="text-white" size={24} />
+                                        <Mail className="text-white" size={28} />
                                     </div>
                                     <div>
-                                        <div className="font-semibold text-accent">E-mail</div>
-                                        <div className="text-accent">{EMAIL}</div>
+                                        <div className="font-bold text-gray-900">E-mail</div>
+                                        <div className="text-gray-700">{EMAIL}</div>
                                     </div>
                                 </div>
-                                <div className="flex items-center gap-4 p-4 bg-accent/10 rounded-lg">
+                                <div className="flex items-center gap-4 p-4 bg-accent/10 rounded-xl shadow">
                                     <div className="bg-accent p-3 rounded-full">
-                                        <MapPin className="text-white" size={24} />
+                                        <MapPin className="text-white" size={28} />
                                     </div>
                                     <div>
-                                        <div className="font-semibold text-accent">Endereço</div>
-                                        <div className="text-accent">{ADDRESS}</div>
+                                        <div className="font-bold text-gray-900">Endereço</div>
+                                        <div className="text-gray-700">{ADDRESS}</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-accent text-white p-8 rounded-2xl">
-                            <h3 className="text-xl font-semibold mb-4">Horário de Atendimento</h3>
-                            <div className="space-y-2">
+                        <div className="bg-primary/10 p-8 rounded-3xl shadow-xl">
+                            <h3 className="text-xl font-bold text-gray-900 mb-4">Horário de Atendimento</h3>
+                            <div className="space-y-2 text-lg text-gray-700">
                                 <div className="flex justify-between">
                                     <span>Segunda a Sexta:</span>
                                     <span>8h às 18h</span>
@@ -85,9 +85,9 @@ function Contact() {
                             </div>
                         </div>
                     </div>
-                    <div className="bg-background rounded-2xl shadow-lg overflow-hidden flex flex-col h-full min-h-full">
+                    <div className="bg-white rounded-3xl shadow-xl overflow-hidden flex flex-col h-full min-h-full">
                         <div className="p-6 border-b">
-                            <h3 className="text-xl font-semibold text-accent">Localização</h3>
+                            <h3 className="text-xl font-bold text-gray-900">Localização</h3>
                         </div>
                         <div className="flex-1">
                             <iframe
