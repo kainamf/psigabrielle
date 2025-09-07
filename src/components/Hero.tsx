@@ -7,49 +7,40 @@ import { MessageCircle, Instagram, Heart } from 'lucide-react';
 
 function Hero() {
     return (
-    <section id="inicio" className="py-24 bg-white mt-24">
-            <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-16">
-                <div className="flex-1 flex flex-col justify-center">
-                    <h1 className="text-5xl md:text-7xl font-extrabold text-gray-900 mb-8 leading-tight">
-                        Avaliação Neuropsicológica
-                        <span className="block text-primary mt-2">para Crianças e Adolescentes</span>
+    <section id="inicio" className="py-24 bg-white">
+        <div className="max-w-6xl mx-auto px-6 flex flex-col items-center">
+            <img src="/assets/images/Logo-escrita-fina.png" alt="Logo escrita fina" className="mx-auto mb-10 h-32 w-auto object-contain" />
+            <div className="w-full flex flex-col md:flex-row items-center justify-center gap-16">
+                <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left">
+                    <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-6 leading-tight">
+                        Psicóloga Gabrielle Mazulo CRP 00/00000<br />
+                        <span className="block text-primary mt-2">Atendimento clínico com foco em neurodesenvolvimento e empatia</span>
                     </h1>
-                    <p className="text-2xl text-gray-700 mb-10 leading-relaxed max-w-xl">
-                        Especialista em compreender o desenvolvimento cognitivo, emocional e comportamental de crianças e adolescentes através de avaliações neuropsicológicas precisas e humanizadas.
+                    <p className="text-xl italic text-gray-700 mb-8 leading-relaxed max-w-xl">
+                        Mais do que ensinar a se comportar, eu ensino a se reconhecer. E ser acolhido por inteiro.
                     </p>
-                    <div className="flex gap-6 mt-2">
-                        <a
-                            href={WHATSAPP}
-                            target="_blank"
-                            className="bg-primary hover:bg-accent text-white px-10 py-5 rounded-xl font-bold flex items-center gap-4 shadow-xl transition-all duration-200 hover:scale-105 text-lg"
-                        >
-                            <MessageCircle size={24} />
-                            Agendar Consulta
-                        </a>
-                        <a
-                            href={INSTAGRAM_LINK}
-                            target="_blank"
-                            className="bg-white border-2 border-primary text-primary px-10 py-5 rounded-xl font-bold flex items-center gap-4 shadow-xl transition-all duration-200 hover:bg-primary hover:text-white text-lg"
-                        >
-                            <Instagram size={24} />
-                            Instagram
-                        </a>
-                    </div>
+                    <a
+                        href={WHATSAPP}
+                        target="_blank"
+                        className="bg-primary hover:bg-accent text-white px-8 py-4 rounded-full font-bold flex items-center justify-center gap-3 shadow-lg transition-all transform hover:scale-105 text-lg w-64 mx-auto md:mx-0"
+                    >
+                        <MessageCircle size={22} />
+                        Agendar Consulta
+                    </a>
                 </div>
                 <div className="flex-1 flex justify-center items-center">
-                    <div className="bg-white rounded-3xl shadow-2xl p-6 flex flex-col items-center max-w-xs w-full hover:shadow-3xl transition-shadow duration-300">
+                    <div className="bg-white rounded-[40px] shadow-2xl p-0 flex flex-col items-center max-w-lg w-full">
                         <img
-                            src="/assets/images/Gabrielle-alta  fkuhn 1.jpg"
+                            src="/assets/images/Gabrielle-alta1.jpg"
                             alt="Gabrielle Mazulo"
-                            className="w-full h-auto rounded-2xl mb-6 object-cover"
-                            style={{ maxHeight: '400px' }}
+                            className="w-full h-auto rounded-[40px] object-cover"
+                            style={{ aspectRatio: '3/4' }}
                         />
-                        <h3 className="text-2xl font-bold text-gray-900 mb-1">Gabrielle Mazulo</h3>
-                        <p className="text-primary text-lg">Psicóloga Especialista</p>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
     );
 }
 
