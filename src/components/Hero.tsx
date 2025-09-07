@@ -2,7 +2,7 @@ import React from 'react';
 
 const INSTAGRAM = process.env.REACT_APP_INSTAGRAM;
 const WHATSAPP = process.env.REACT_APP_WHATSAPP;
-const INSTAGRAM_LINK = `https://instagram.com/${INSTAGRAM}`;
+const CRP = process.env.REACT_APP_CRP;
 import { MessageCircle, Instagram, Heart } from 'lucide-react';
 
 function Hero() {
@@ -13,7 +13,7 @@ function Hero() {
             <div className="w-full flex flex-col md:flex-row items-center justify-center gap-16">
                 <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left">
                     <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-6 leading-tight">
-                        Psicóloga Gabrielle Mazulo CRP 00/00000<br />
+                        Psicóloga Gabrielle Mazulo CRP {CRP}<br />
                         <span className="block text-primary mt-2">Atendimento clínico com foco em neurodesenvolvimento e empatia</span>
                     </h1>
                     <p className="text-xl italic text-gray-700 mb-8 leading-relaxed max-w-xl">
@@ -29,12 +29,11 @@ function Hero() {
                     </a>
                 </div>
                 <div className="flex-1 flex justify-center items-center">
-                    <div className="bg-white rounded-[40px] shadow-2xl p-0 flex flex-col items-center max-w-lg w-full">
+                    <div className="max-w-md w-full">
                         <img
-                            src="/assets/images/Gabrielle-alta1.jpg"
-                            alt="Gabrielle Mazulo"
-                            className="w-full h-auto rounded-[40px] object-cover"
-                            style={{ aspectRatio: '3/4' }}
+                            src="/assets/images/Gabrielle-alta3-4.jpg"
+                            alt="Foto de Gabrielle"
+                            className="w-full h-auto object-cover shadow-2xl rounded-3xl"
                         />
                     </div>
                 </div>
