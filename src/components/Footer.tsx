@@ -7,7 +7,7 @@ const ADDRESS = process.env.REACT_APP_ADDRESS;
 
 function Footer() {
     return (
-        <footer className="bg-primary-900 text-white py-10 mt-24">
+        <footer className="bg-primary-300 text-white py-10 mt-24">
             <div className="max-w-6xl mx-auto px-6 text-center">
                 <p className="text-base">© 2025 Kainã Freitas - Todos os direitos reservados</p>
                 <p className="text-base mt-2">Desenvolvido por <a href="https://dev-kainamf.vercel.app/" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary-100">Kainã Freitas</a></p>

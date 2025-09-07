@@ -24,10 +24,10 @@ function Contact() {
                                 <a
                                     href={WHATSAPP}
                                     target="_blank"
-                                    className="flex items-center gap-4 p-4 bg-primary/10 rounded-xl hover:bg-primary/20 transition-colors group shadow"
+                                    className="flex items-center gap-4 p-4 bg-primary-100 rounded-xl hover:bg-primary-300 transition-colors group shadow"
                                 >
                                     <div className="bg-primary p-3 rounded-full group-hover:bg-accent transition-colors">
-                                        <MessageCircle className="text-white" size={28} />
+                                        <MessageCircle className="text-black" size={28} />
                                     </div>
                                     <div>
                                         <div className="font-bold text-gray-900">WhatsApp</div>
@@ -37,28 +37,28 @@ function Contact() {
                                 <a
                                     href={INSTAGRAM_LINK}
                                     target="_blank"
-                                    className="flex items-center gap-4 p-4 bg-secondary/10 rounded-xl hover:bg-secondary/20 transition-colors group shadow"
+                                    className="flex items-center gap-4 p-4 bg-primary-100 rounded-xl hover:bg-primary-300 transition-colors group shadow"
                                 >
                                     <div className="bg-secondary p-3 rounded-full">
-                                        <Instagram className="text-white" size={28} />
+                                        <Instagram className="text-black" size={28} />
                                     </div>
                                     <div>
                                         <div className="font-bold text-gray-900">Instagram</div>
                                         <div className="text-gray-700">@{INSTAGRAM}</div>
                                     </div>
                                 </a>
-                                <div className="flex items-center gap-4 p-4 bg-primary/10 rounded-xl shadow">
+                                <div className="flex items-center gap-4 p-4 bg-primary-100 rounded-xl shadow">
                                     <div className="bg-primary p-3 rounded-full">
-                                        <Mail className="text-white" size={28} />
+                                        <Mail className="text-black" size={28} />
                                     </div>
                                     <div>
                                         <div className="font-bold text-gray-900">E-mail</div>
                                         <div className="text-gray-700">{EMAIL}</div>
                                     </div>
                                 </div>
-                                <div className="flex items-center gap-4 p-4 bg-accent/10 rounded-xl shadow">
-                                    <div className="bg-accent p-3 rounded-full">
-                                        <MapPin className="text-white" size={28} />
+                                <div className="flex items-center gap-4 p-4 bg-primary-100 rounded-xl shadow">
+                                    <div className="bg-primary p-3 rounded-full">
+                                        <MapPin className="text-black" size={28} />
                                     </div>
                                     <div>
                                         <div className="font-bold text-gray-900">Endereço</div>
@@ -72,15 +72,7 @@ function Contact() {
                             <div className="space-y-2 text-lg text-gray-700">
                                 <div className="flex justify-between">
                                     <span>Segunda a Sexta:</span>
-                                    <span>8h às 18h</span>
-                                </div>
-                                <div className="flex justify-between">
-                                    <span>Sábado:</span>
-                                    <span>8h às 12h</span>
-                                </div>
-                                <div className="flex justify-between">
-                                    <span>Domingo:</span>
-                                    <span>Fechado</span>
+                                    <span>8h às 21h</span>
                                 </div>
                             </div>
                         </div>

@@ -19,11 +19,11 @@ function Hero() {
                     <p className="text-xl italic text-gray-700 mb-8 leading-relaxed max-w-xl">
                         Mais do que ensinar a se comportar, eu ensino a se reconhecer. E ser acolhido por inteiro.
                     </p>
-                    <a
-                        href={WHATSAPP}
-                        target="_blank"
-                        className="bg-primary hover:bg-accent text-white px-8 py-4 rounded-full font-bold flex items-center justify-center gap-3 shadow-lg transition-all transform hover:scale-105 text-lg w-64 mx-auto md:mx-0"
-                    >
+                        <a
+                            href={WHATSAPP}
+                            target="_blank"
+                            className="bg-primary-500 hover:bg-primary-700 text-white px-8 py-4 rounded-full font-bold flex items-center justify-center gap-3 shadow-lg transition-all transform hover:scale-105 text-lg w-64 mx-auto md:mx-0"
+                        >
                         <MessageCircle size={22} />
                         Agendar Consulta
                     </a>
