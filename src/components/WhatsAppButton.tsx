@@ -9,7 +9,7 @@ function WhatsAppButton() {
             <a
                 href={WHATSAPP}
                 target="_blank"
-                className="bg-primary hover:bg-accent text-white p-4 rounded-full shadow-lg transition-all transform hover:scale-110 flex items-center gap-3"
+                className="bg-secondary-500 hover:bg-secondary-700 text-white p-4 rounded-full shadow-lg transition-all transform hover:scale-110 flex items-center gap-3"
             >
                 <MessageCircle size={24} />
                 <span className="hidden sm:inline font-semibold">Agendar Consulta</span>
