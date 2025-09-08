@@ -26,7 +26,7 @@ export default {
           900: '#c46c3c',
         },
         neutral: {
-          100: '#666666',
+          100: '#d4d4d4',
           300: '#565656',
           500: '#3f3f3f',
           700: '#343434',
@@ -35,7 +35,7 @@ export default {
         font: {
           default: '#303030',
         },
-        background: '#fafafa',
+        background: '#ffffff',
       },
     },
   },
