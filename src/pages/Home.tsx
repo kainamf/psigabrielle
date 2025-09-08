@@ -8,10 +8,9 @@ import FAQ from '../components/FAQ';
 export default function Home() {
   return (
     <div className="pt-0 bg-background">
-      <Hero />
-      <Services />
-      {/* FAQ Section */}
-      <FAQ />
+  <Hero />
+  {/* FAQ Section */}
+  <FAQ />
     </div>
   );
 }
