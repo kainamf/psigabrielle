@@ -3,7 +3,7 @@ import { Users, Award, Heart, Star } from 'lucide-react';
 
 function Services() {
     return (
-        <section id="servicos" className="py-24 bg-white">
+        <section id="servicos" className="py-24 bg-background">
             <div className="max-w-6xl mx-auto px-6">
                 <div className="text-center mb-16">
                     <h2 className="text-5xl font-extrabold text-gray-900 mb-6">Serviços Oferecidos</h2>

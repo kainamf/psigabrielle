@@ -7,7 +7,7 @@ import { MessageCircle, Instagram, Heart } from 'lucide-react';
 
 function Hero() {
     return (
-    <section id="inicio" className="py-24 bg-background">
+    <section id="inicio" className="py-24 bg-">
         <div className="max-w-6xl mx-auto px-6">
             {/* Logo centralizada no topo */}
             <div className="flex justify-center mb-10">

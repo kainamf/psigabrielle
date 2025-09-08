@@ -35,7 +35,7 @@ export default {
         font: {
           default: '#303030',
         },
-        background: '#fafafa',
+        background: '#ffffff',
       },
     },
   },
